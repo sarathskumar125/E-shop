@@ -37,7 +37,7 @@ const Product = (props) => {
 
  
   return (
-    <Card>
+    <Card style={{ width: '18rem', minHeight:"26rem"}}>
       <Link to={`/product/${product._id}`}>
         <Card.Img variant="top" src={product.image} height="200px"
                 width="200px" />
